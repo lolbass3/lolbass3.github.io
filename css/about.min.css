@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'bernhard';
+  src: url("/resources/fonts/bernhard.ttf") format("truetype"); }
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'bernhard', 'Roman', serif;
+  text-transform: lowercase; }
+
+body {
+  font-size: 18px; }
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.45; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2.5em; }
+
+p {
+  font-size: 1em; }
+
+.navbar-inverse {
+  z-index: 1000;
+  background-color: #222;
+  border-width: 0px;
+  background: rgba(250, 250, 250, 0.8);
+  border-bottom: 4px solid black; }
+
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-size: 30px;
+  font-family: "bernhard";
+  text-transform: lowercase; }
+  .navbar-inverse .navbar-brand:hover {
+    color: #156FED; }
+
+.navbar-toggle {
+  display: block;
+  border: none;
+  background: transparent; }
+  .navbar-toggle:hover {
+    border: none;
+    background: transparent !important; }
+  .navbar-toggle:active {
+    border: none;
+    background: transparent !important; }
+  .navbar-toggle:focus {
+    border: none;
+    background: transparent !important; }
+
+.navbar-inverse .navbar-header .navbar-brand {
+  text-shadow: 1px 1px white; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+  font-family: "bernhard";
+  text-transform: lowercase;
+  text-shadow: 1px 1px white;
+  font-size: 25px; }
+  .navbar-inverse .navbar-nav > li > a:hover {
+    font-size: 27px;
+    border-bottom: 2px solid #156FED; }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #156FED;
+  background-color: transparent; }
+
+.navbar-inverse {
+  padding: 8px 0; }
+
+@media (max-width: 768px) {
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black; } }
+@media (min-width: 768px) {
+  .navbar-inverse {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s; }
+
+  .navbar-inverse .navbar-toggle .icon-bar {
+    display: none; }
+
+  .navbar-inverse.navbar-shrink {
+    padding: 10px 0; } }
+
+#bg {
+  z-index: -1;
+  position: fixed;
+  background-image: url("../resources/img/about-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+#about {
+  background: #22313F;
+  opacity: .7;
+  padding-bottom: 20px; }
+
+#about-header {
+  color: white; }
+
+#about-text {
+  color: white;
+  text-transform: none; }
+
+@media (max-width: 768px) {
+  #bg {
+    background-image: url("../resources/img/about-banner-mobile.jpg"); }
+
+  .about-container {
+    padding-top: none;
+    margin-top: none; }
+
+  .navbar-inverse {
+    margin-bottom: 0; }
+
+  #about-header {
+    margin-top: 0; } }
