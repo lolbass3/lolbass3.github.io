@@ -2,12 +2,12 @@
 	"success": 1,
 	"result": [
 		{
-			"id": "1",
-			"title": "This is warning class event with very long title to check how it fits to event in day view",
-			"url": "http://www.lowellringel.com/events/test.html",
+			"id": "2",
+			"title": "david leon trio",
+			"url": "http://www.lowellringel.com/events/event_2.html",
 			"class": "event-info",
-			"start": "1436565600000",
-			"end": "1436565600000"
+			"start": "1440630000000",
+			"end": "1440644400000"
 		}
 	]
 }
