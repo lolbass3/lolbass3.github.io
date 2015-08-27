@@ -1,5 +1,5 @@
 {
-	"success": 1,
+	"success": 2,
 	"result": [
 		{
 			"id": "2",
@@ -8,9 +8,8 @@
 			"class": "event-info",
 			"start": "1440630000000",
 			"end": "1440644400000"
-		}
-
-		,{
+		},
+		{
 			"id": "3",
 			"title": "duo with arianna neikrug",
 			"url": "http://www.lowellringel.com/events/event_3.html",
