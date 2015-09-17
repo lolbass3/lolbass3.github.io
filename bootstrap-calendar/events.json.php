@@ -87,7 +87,39 @@
 			"url": "http://www.lowellringel.com/events/event_12.html",
 			"class": "event-info",
 			"start": "1446397200000",
-			"end": "1446408000000"						
+			"end": "1446408000000"
+		},
+		{
+			"id": "13",
+			"title": "playing fish house with sound underground",
+			"url": "http://www.lowellringel.com/events/event_13.html",
+			"class": "event-info",
+			"start": "1442401200000",
+			"end": "1442415600000"
+		},
+		{
+			"id": "14",
+			"title": "fish house with aaron lebos quartet",
+			"url": "http://www.lowellringel.com/events/event_14.html",
+			"class": "event-info",
+			"start": "1443610800000",
+			"end": "1443625200000"
+		},
+		{
+			"id": "15",
+			"title": "fish house with vocalist melinda rodriguez",
+			"url": "http://www.lowellringel.com/events/event_15.html",
+			"class": "event-info",
+			"start": "1444129200000",
+			"end": "1444140000000"
+		},
+		{
+			"id": "16",
+			"title": "monterey jazz festival with frost extensions",
+			"url": "http://www.lowellringel.com/events/event_16.html",
+			"class": "event-info",
+			"start": "1442766600000",
+			"end": "1442768400000"							
 		}
 	]
 }
