@@ -135,7 +135,15 @@
 			"url": "http://www.lowellringel.com/events/event_18.html",
 			"class": "event-info",
 			"start": "1443785400000",
-			"end": "1443799800000"							
+			"end": "1443799800000"
+		},
+		{
+			"id": "19",
+			"title": "dance night with the shiny shoes band",
+			"url": "http://www.lowellringel.com/events/event_19.html",
+			"class": "event-info",
+			"start": "1444480200000",
+			"end": "1444492740000"
 		}
 	]
 }
