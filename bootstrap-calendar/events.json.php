@@ -119,7 +119,23 @@
 			"url": "http://www.lowellringel.com/events/event_16.html",
 			"class": "event-info",
 			"start": "1442766600000",
-			"end": "1442768400000"							
+			"end": "1442768400000"
+		},
+		{
+			"id": "17",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_17.html",
+			"class": "event-info",
+			"start": "1443700800000",
+			"end": "1443711600000"
+		},
+		{
+			"id": "18",
+			"title": "arianna neikrug quartet at books and books",
+			"url": "http://www.lowellringel.com/events/event_18.html",
+			"class": "event-info",
+			"start": "1443785400000",
+			"end": "1443799800000"							
 		}
 	]
 }
