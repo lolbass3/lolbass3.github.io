@@ -543,6 +543,10 @@ a.cal-event-week {
     height: 75px;
   }
 
+  div.cal-month-day.cal-day-outmonth {
+      height: 75px;
+  }
+
   .cal-row-fluid.cal-row-head{
     padding-top: 0;
     margin-top: 0;
@@ -571,6 +575,10 @@ a.cal-event-week {
 @media(max-width:480px){
   .cal-row-fluid{
     height: 50px;
+  }
+
+  div.cal-month-day.cal-day-outmonth {
+      height: 50px;
   }
 
   .cal-row-fluid.cal-row-head{
