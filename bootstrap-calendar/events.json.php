@@ -144,6 +144,22 @@
 			"class": "event-info",
 			"start": "1444480200000",
 			"end": "1444492740000"
+		},
+		{
+			"id": "20",
+			"title": "duo with chantil dukart at moreno's",
+			"url": "http://www.lowellringel.com/events/event_20.html",
+			"class": "event-info",
+			"start": "1444732200000",
+			"end": "1444743000000"
+		},
+		{
+			"id": "21",
+			"title": "duo with chantil dukart at moreno's",
+			"url": "http://www.lowellringel.com/events/event_21.html",
+			"class": "event-info",
+			"start": "1445337000000",
+			"end": "1445347800000"
 		}
 	]
 }
