@@ -86,8 +86,8 @@
 			"title": "duo with chantil dukart",
 			"url": "http://www.lowellringel.com/events/event_12.html",
 			"class": "event-info",
-			"start": "1446397200000",
-			"end": "1446408000000"
+			"start": "1447002000000",
+			"end": "1447012800000"
 		},
 		{
 			"id": "13",
@@ -160,6 +160,38 @@
 			"class": "event-info",
 			"start": "1445337000000",
 			"end": "1445347800000"
+		},
+		{
+			"id": "22",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_22.html",
+			"class": "event-info",
+			"start": "1448730000000",
+			"end": "1448740800000"
+		},
+		{
+			"id": "23",
+			"title": "fish house with #bicmnrosfulmfrenh",
+			"url": "http://www.lowellringel.com/events/event_23.html",
+			"class": "event-info",
+			"start": "1446681600000",
+			"end": "1446696000000"
+		},
+		{
+			"id": "24",
+			"title": "trio at peacock garden cafe",
+			"url": "http://www.lowellringel.com/events/event_24.html",
+			"class": "event-info",
+			"start": "1446942600000",
+			"end": "1446953400000"
+		},
+		{
+			"id": "25",
+			"title": "fish house featuring john daversa and martin bejerano",
+			"url": "http://www.lowellringel.com/events/event_25.html",
+			"class": "event-info",
+			"start": "1447286400000",
+			"end": "1447300800000"
 		}
 	]
 }
