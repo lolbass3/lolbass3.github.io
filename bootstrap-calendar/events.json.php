@@ -166,8 +166,8 @@
 			"title": "duo with chantil dukart",
 			"url": "http://www.lowellringel.com/events/event_22.html",
 			"class": "event-info",
-			"start": "1448730000000",
-			"end": "1448740800000"
+			"start": "1446134400000",
+			"end": "1446145200000"
 		},
 		{
 			"id": "23",
