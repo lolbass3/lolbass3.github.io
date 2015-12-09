@@ -192,6 +192,62 @@
 			"class": "event-info",
 			"start": "1447286400000",
 			"end": "1447300800000"
+		},
+		{
+			"id": "26",
+			"title": "frost sextet featuring trombonist/composer alan ferber",
+			"url": "http://www.lowellringel.com/events/event_26.html",
+			"class": "event-info",
+			"start": "1447286400000",
+			"end": "1447902000000"
+		},
+		{
+			"id": "27",
+			"title": "christmas concert at calvary chapel of kendall",
+			"url": "http://www.lowellringel.com/events/event_27.html",
+			"class": "event-info",
+			"start": "1449108000000",
+			"end": "1449113400000"
+		},
+		{
+			"id": "28",
+			"title": "sunset tavern with arianna neikrug quartet",
+			"url": "http://www.lowellringel.com/events/event_28.html",
+			"class": "event-info",
+			"start": "1449271800000",
+			"end": "1449282600000"
+		},
+		{
+			"id": "29",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_29.html",
+			"class": "event-info",
+			"start": "1449421200000",
+			"end": "1449432000000"
+		},
+		{
+			"id": "30",
+			"title": "trio at peacock garden cafe",
+			"url": "http://www.lowellringel.com/events/event_30.html",
+			"class": "event-info",
+			"start": "1449966600000",
+			"end": "1449977400000"
+		},
+		{
+			"id": "31",
+			"title": "duo with keelan dimick",
+			"url": "http://www.lowellringel.com/events/event_31.html",
+			"class": "event-info",
+			"start": "1450026000000",
+			"end": "1450036800000"
+		},
+		{
+			"id": "32",
+			"title": "lagniappe house with jonah udall trio",
+			"url": "http://www.lowellringel.com/events/event_32.html",
+			"class": "event-info",
+			"start": "1450144800000",
+			"end": "1450155540000"
 		}
 	]
 }
