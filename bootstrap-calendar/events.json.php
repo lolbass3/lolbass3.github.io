@@ -198,7 +198,7 @@
 			"title": "frost sextet featuring trombonist/composer alan ferber",
 			"url": "http://www.lowellringel.com/events/event_26.html",
 			"class": "event-info",
-			"start": "1447286400000",
+			"start": "1447894800000",
 			"end": "1447902000000"
 		},
 		{
