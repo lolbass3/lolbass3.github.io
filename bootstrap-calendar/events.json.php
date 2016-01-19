@@ -248,6 +248,86 @@
 			"class": "event-info",
 			"start": "1450144800000",
 			"end": "1450155540000"
+		},
+		{
+			"id": "33",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_33.html",
+			"class": "event-info",
+			"start": "1453050000000",
+			"end": "1453060800000"
+		},
+		{
+			"id": "34",
+			"title": "duo with keelan dimick",
+			"url": "http://www.lowellringel.com/events/event_34.html",
+			"class": "event-info",
+			"start": "1453654800000",
+			"end": "1453665600000"
+		},
+		{
+			"id": "35",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_35.html",
+			"class": "event-info",
+			"start": "1454259600000",
+			"end": "1454270400000"
+		},
+		{
+			"id": "36",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_36.html",
+			"class": "event-info",
+			"start": "1454864400000",
+			"end": "1454875200000"
+		},
+		{
+			"id": "37",
+			"title": "fish house with vocalist melinda rodriguez",
+			"url": "http://www.lowellringel.com/events/event_37.html",
+			"class": "event-info",
+			"start": "1450227600000",
+			"end": "1450238400000"
+		},
+		{
+			"id": "38",
+			"title": "fred moyer jazz trio",
+			"url": "http://www.lowellringel.com/events/event_38.html",
+			"class": "event-info",
+			"start": "1451847600000",
+			"end": "1451854800000"
+		},
+		{
+			"id": "39",
+			"title": "fred moyer jazz trio",
+			"url": "http://www.lowellringel.com/events/event_39.html",
+			"class": "event-info",
+			"start": "1452385800000",
+			"end": "1452394800000"
+		},
+		{
+			"id": "40",
+			"title": "fred moyer jazz trio",
+			"url": "http://www.lowellringel.com/events/event_40.html",
+			"class": "event-info",
+			"start": "1452454200000",
+			"end": "1452463200000"
+		},
+		{
+			"id": "41",
+			"title": "fred moyer jazz trio",
+			"url": "http://www.lowellringel.com/events/event_41.html",
+			"class": "event-info",
+			"start": "1452472200000",
+			"end": "1452481200000"
+		},
+		{
+			"id": "42",
+			"title": "arianna neikrug quartet at books and books",
+			"url": "http://www.lowellringel.com/events/event_42.html",
+			"class": "event-info",
+			"start": "1452990600000",
+			"end": "1453005000000"
 		}
 	]
 }
