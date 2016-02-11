@@ -73,10 +73,10 @@ p {
 .navbar-inverse {
   padding: 8px 0; }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .navbar-inverse .navbar-toggle .icon-bar {
     background-color: black; } }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar-inverse {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;

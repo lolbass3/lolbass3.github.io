@@ -1,0 +1,102 @@
+@font-face{font-family:bernhard;src:url(/resources/fonts/bernhard.ttf) format("truetype")}h1,h2,h3,h4,h5,h6,p{font-family:bernhard,Roman,serif;text-transform:lowercase;line-height:1.45}.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{font-family:bernhard;text-transform:lowercase}body{font-size:18px}h1{font-size:4em}h2{font-size:3em}h3{font-size:2.5em}p{font-size:1em}.navbar-inverse{z-index:1000;background-color:#222;border-width:0;background:rgba(250,250,250,.8);border-bottom:4px solid #000;padding:8px 0}.navbar-inverse .navbar-brand{color:#000;font-size:30px}.navbar-inverse .navbar-brand:hover{color:#156FED}.navbar-toggle{display:block;border:none;background:0 0}.navbar-toggle:active,.navbar-toggle:focus,.navbar-toggle:hover{border:none;background:0 0!important}.navbar-inverse .navbar-header .navbar-brand{text-shadow:1px 1px #fff}.navbar-inverse .navbar-nav>li>a{color:#000;text-shadow:1px 1px #fff;font-size:25px}.navbar-inverse .navbar-nav>li>a:hover{font-size:27px;border-bottom:2px solid #156FED}.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{color:#156FED;background-color:transparent}@media (max-width:1000px){.navbar-inverse .navbar-toggle .icon-bar{background-color:#000}}@media (min-width:1000px){.navbar-inverse{padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}.navbar-inverse .navbar-toggle .icon-bar{display:none}.navbar-inverse.navbar-shrink{padding:10px 0}}
+#logo-about-text{color:gray}#boulevard-container{position:absolute;padding:0;margin:0;width:100%;height:100%;left:0;top:0}@media (max-width:1000px){.navbar-inverse{padding-bottom:0;margin-bottom:0}.navbar-header{padding-bottom:12px}#boulevard-container{position:absolute;padding:0;margin:0;width:100%;left:0}.album-cover-wrapper .track-info .track-title{font-size:12px}}.player-layout{padding-top:120px}.navbar-inverse .navbar-toggle .icon-bar{background-color:#000}.tooltip-inner{white-space:pre-wrap}
+
+#bg{
+  z-index: -1;
+  position: fixed;
+  background-image: url(../resources/img/miamiu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0
+}
+
+nav.navbar.navbar-inverse{
+  margin-bottom: 0;
+}
+
+.panel{
+  opacity: .9;
+}
+
+.subnav{
+  border-bottom: 4px solid #156FED;
+  margin-bottom: 20px;
+}
+
+.subnav h4{
+  color: white;
+  font-size: 25px;
+}
+
+.panel-title{
+  font-size: 20px;
+}
+
+.article{
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 3px;
+  text-align: left;
+  opacity: .95;
+}
+
+.article h2{
+  border-bottom: 1px solid rgb(238,238,238);
+  font-size: 43px;
+}
+
+.news-container{
+  text-align: center;
+  font-family: bernhard;
+  text-transform: none !important;
+  margin-top: 200px;
+}
+
+.article span{
+  font-family: bernhard;
+  text-transform: none;
+}
+
+.article-content{
+  margin-top: 15px;
+}
+
+dir-pagination-controls{
+  opacity: .95;
+}
+
+.subnav{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 100px;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .page-header{
+    font-size: 12px;
+    color: white;
+  }
+  .article h2{
+    font-size: 30px;
+  }
+  .news-container{
+    margin-top: 130px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .subnav{
+    top: 74px;
+  }
+
+  .news-container{
+    margin-top: 150px;
+  }
+}
