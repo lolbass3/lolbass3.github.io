@@ -328,6 +328,38 @@
 			"class": "event-info",
 			"start": "1452990600000",
 			"end": "1453005000000"
+		},
+		{
+			"id": "43",
+			"title": "lowell ringel's senior recital",
+			"url": "http://www.lowellringel.com/events/event_43.html",
+			"class": "event-info",
+			"start": "1454115600000",
+			"end": "1454119200000"
+		},
+		{
+			"id": "44",
+			"title": "jonah udall's senior recital",
+			"url": "http://www.lowellringel.com/events/event_44.html",
+			"class": "event-info",
+			"start": "1454634000000",
+			"end": "1454637600000"
+		},
+		{
+			"id": "45",
+			"title": "david leon's senior recital",
+			"url": "http://www.lowellringel.com/events/event_45.html",
+			"class": "event-info",
+			"start": "1455238800000",
+			"end": "1455242400000"
+		},
+		{
+			"id": "46",
+			"title": "tyler giroux's master's recital",
+			"url": "http://www.lowellringel.com/events/event_46.html",
+			"class": "event-info",
+			"start": "1455411600000",
+			"end": "1455415200000"
 		}
 	]
 }
