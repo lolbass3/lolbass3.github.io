@@ -360,6 +360,126 @@
 			"class": "event-info",
 			"start": "1455411600000",
 			"end": "1455415200000"
+		},
+		{
+			"id": "47",
+			"title": "fish house fat tuesday",
+			"url": "http://www.lowellringel.com/events/event_47.html",
+			"class": "event-info",
+			"start": "1454889600000",
+			"end": "1454900400000"
+		},
+		{
+			"id": "48",
+			"title": "duo with saxophonist david leon",
+			"url": "http://www.lowellringel.com/events/event_48.html",
+			"class": "event-info",
+			"start": "1455321600000",
+			"end": "1455332400000"
+		},
+		{
+			"id": "49",
+			"title": "duo with saxophonist david leon",
+			"url": "http://www.lowellringel.com/events/event_49.html",
+			"class": "event-info",
+			"start": "1455586200000",
+			"end": "1455593400000"
+		},
+		{
+			"id": "50",
+			"title": "from the dark knight to the hunger games: the movie music of james newton howard",
+			"url": "http://www.lowellringel.com/events/event_50.html",
+			"class": "event-info",
+			"start": "1455930000000",
+			"end": "1455940800000"
+		},
+		{
+			"id": "51",
+			"title": "danielle wertz's senior recital",
+			"url": "http://www.lowellringel.com/events/event_51.html",
+			"class": "event-info",
+			"start": "1456275600000",
+			"end": "1456279200000"
+		},
+		{
+			"id": "52",
+			"title": "duo with saxophonist david leon",
+			"url": "http://www.lowellringel.com/events/event_52.html",
+			"class": "event-info",
+			"start": "1456531200000",
+			"end": "1456542000000"
+		},
+		{
+			"id": "53",
+			"title": "alex manfredo's master's recital",
+			"url": "http://www.lowellringel.com/events/event_53.html",
+			"class": "event-info",
+			"start": "1456621200000",
+			"end": "1456624800000"
+		},
+		{
+			"id": "54",
+			"title": "elliot weeks' master's recital",
+			"url": "http://www.lowellringel.com/events/event_54.html",
+			"class": "event-info",
+			"start": "1456707600000",
+			"end": "1456711200000"
+		},
+		{
+			"id": "55",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_55.html",
+			"class": "event-info",
+			"start": "1456678800000",
+			"end": "1456689600000"
+		},
+		{
+			"id": "56",
+			"title": "orchestra concert",
+			"url": "http://www.lowellringel.com/events/event_56.html",
+			"class": "event-info",
+			"start": "1458432000000",
+			"end": "1458435600000"
+		},
+		{
+			"id": "57",
+			"title": "ryan hecker's master's recital",
+			"url": "http://www.lowellringel.com/events/event_57.html",
+			"class": "event-info",
+			"start": "1458604800000",
+			"end": "1458608400000"
+		},
+		{
+			"id": "58",
+			"title": "frost sextet",
+			"url": "http://www.lowellringel.com/events/event_58.html",
+			"class": "event-info",
+			"start": "1458691200000",
+			"end": "1458694800000"
+		},
+		{
+			"id": "59",
+			"title": "frost extensions",
+			"url": "http://www.lowellringel.com/events/event_59.html",
+			"class": "event-info",
+			"start": "1458864000000",
+			"end": "1458867600000"
+		},
+		{
+			"id": "60",
+			"title": "sean johnson's senior recital",
+			"url": "http://www.lowellringel.com/events/event_60.html",
+			"class": "event-info",
+			"start": "1459382400000",
+			"end": "1459382400000"
+		},
+		{
+			"id": "61",
+			"title": "alec aldred's senior recital",
+			"url": "http://www.lowellringel.com/events/event_61.html",
+			"class": "event-info",
+			"start": "1459468800000",
+			"end": "1459472400000"
 		}
 	]
 }
