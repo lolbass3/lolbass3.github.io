@@ -6,6 +6,7 @@
         <meta charset=UTF-8>
         <meta name="google-site-verification" content="QKzhZJvAT_cVS2R97yLryOeIsrWUmILMofHpkJ0G4jo" />
         <meta name="description" content = "Lowell Ringel is a bassist, composer, and music educator originally from Hillsborough, North Carolina. He currently studies at the University of Miami Frost School of Music for jazz bass performance."/>
+
         <!-- Chrome for Android theme color -->
         <meta name="theme-color" content="#303F9F">
 
@@ -14,16 +15,53 @@
 
         <!-- Tile color for Win8 -->
         <meta name="msapplication-TileColor" content="#3372DF">
-
-        <title>Lowell Ringel</title>
+        <title>Media</title>
         <link rel=stylesheet href=css/bootstrap.min.css>
-        <link rel=stylesheet href=css/index.min.css>
+        <link rel=stylesheet href=css/media.min.css>
         <!-- Favicon -->
         <link rel="icon" type = "image/png" href="/resources/img/favicomatic/favicon-32x32.png" sizes = "32x32">
         <link rel="icon" type = "image/png" href="/resources/img/favicomatic/favicon-16x16.png" sizes = "16x16">
+        <!--Masonry test-->
+        <style>
+          
+          .grid {
+            background: #EEE;
+            max-width: 1200px;
+          }
+
+          /* clearfix */
+          .grid:after {
+            content: '';
+            display: block;
+            clear: both;
+          }
+
+          /* ---- grid-item ---- */
+
+          .grid-item {
+            width: 160px;
+            height: 120px;
+            float: left;
+            /* vertical gutter */
+            margin-bottom: 20px;
+            background: #D26;
+            border: 2px solid #333;
+            border-color: hsla(0, 0%, 0%, 0.5);
+            border-radius: 5px;
+          }
+
+          .grid-item--width2 { width: 340px; }
+          .grid-item--width3 { width: 520px; }
+          .grid-item--width4 { width: 780px; }
+
+          .grid-item--height2 { height: 200px; }
+          .grid-item--height3 { height: 260px; }
+          .grid-item--height4 { height: 360px; }
+
+        </style>
     </head>
     <body>
-        <nav class="navbar navbar-inverse" role=navigation>
+        <nav class="navbar navbar-inverse" id=mediaNav role=navigation>
             <div class=container>
                 <div class=navbar-header>
                     <button type=button class=navbar-toggle data-toggle=collapse data-target=#nav-collapse>
@@ -61,36 +99,28 @@
                 </div>
             </div>
         </nav>
-        <div class=container>
-            <div class="row align-right">
-                <div class="col-sm-6 static-height">
-                    <h1 id=fade-text>professional bassist</h1>
-                </div>
-            </div>
-            <div class="row align-right">
-                <div class=col-sm-6>
-                    <h2 id=fade-text-little>educator</h2>
-                </div>
-            </div>
-        </div>
-        <div class="footer navbar-fixed-bottom">
-            <button id=music-btn class=navbar-brand>
-                <span class="glyphicon glyphicon-volume-up" id=icon-span aria-hidden=true></span>
-            </button>
-        </div>
-        <audio src=resources/audio/true_story.mp3 id=music autoplay loop></audio>
-        <div id=bg></div>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <div class="container">
+    <div class="grid">
+      <img class="grid-item" src="resources/img/about-banner.jpg" alt="">
+      <img class="grid-item grid-item--width2" src="resources/img/banner.jpg" alt="">
+      <img class="grid-item" src="resources/img/contact-banner.jpg" alt="">
+      <img class="grid-item" src="resources/img/evanlowell.jpg" alt="">
+      <img class="grid-item" src="resources/img/lone-bass.jpg" alt="">
+      <img class="grid-item" src="resources/img/lowell-smiling.png" alt="">
+      <img class="grid-item" src="resources/img/miamiu.jpg" alt="">
+      <img class="grid-item" src="resources/img/bass_fork.png" alt="">
+    </div>
+  </div> 
+   <!--Packery script-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://npmcdn.com/packery@2.0/dist/packery.pkgd.min.js"></script>
+  <script>
 
-          ga('create', 'UA-66455461-1', 'auto');
-          ga('send', 'pageview');
+    // packery biyatch
+    $('.row').packery({
+      itemSelector: 'div[class*="col-"'
+    });
 
-        </script>
-        <script src=js/bootstrap_build.min-7804adbd5a.js></script>
-        <script src=js/index.min-af37458028.js></script>
-    </body>
+  </script>
+</body>
 </html>
