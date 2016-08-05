@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang=en>
     <head>
         <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -21,6 +20,29 @@
         <!-- Favicon -->
         <link rel="icon" type = "image/png" href="/resources/img/favicomatic/favicon-32x32.png" sizes = "32x32">
         <link rel="icon" type = "image/png" href="/resources/img/favicomatic/favicon-16x16.png" sizes = "16x16">
+        <link rel="stylesheet" href="css/packery.css">
+        <!--photoswipe stuff-->
+        <!-- Core CSS file -->
+        <link rel="stylesheet" href="www/lib/photoswipe/dist/photoswipe.css"> 
+
+        <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+             In the folder of skin CSS file there are also:
+             - .png and .svg icons sprite, 
+             - preloader.gif (for browsers that do not support CSS animations) -->
+        <link rel="stylesheet" href="www/lib/photoswipe/dist/default-skin/default-skin.css"> 
+
+        <!-- Core JS file -->
+        <script src="www/lib/photoswipe/dist/photoswipe.min.js"></script> 
+
+        <!-- UI JS file -->
+        <script src="www/lib/photoswipe/dist/photoswipe-ui-default.min.js"></script> 
+        <style>
+          .pswp__caption__center {
+            text-align: center;
+            font-family: bernhard;
+            font-size: 1em;
+          } 
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-inverse" id=mediaNav role=navigation>
@@ -61,28 +83,201 @@
                 </div>
             </div>
         </nav>
-        <div class=gallery id=gallery-container>
-            <iframe class="gallery-cell youtube" src=https://www.youtube.com/embed/bT6Hp5a8hBA frameborder=0 allowfullscreen style="width: 100%;"></iframe>
-            <iframe class="gallery-cell youtube" src=https://www.youtube.com/embed/BSESR3q85Xw frameborder=0 allowfullscreen style="width: 100%;"></iframe>
-            <img src=resources/img/slide_1.jpg class=gallery-cell alt>
-            <img src=resources/img/lowell-smiling.png class=gallery-cell alt>
-            <img src=resources/img/slide_2.jpg class=gallery-cell alt>
-            <img src=resources/img/gentle-lowell.jpg class=gallery-cell alt>
-            <img src=resources/img/slide_3.jpg class=gallery-cell alt>
-            <img src=resources/img/banner-mobile.jpg class=gallery-cell alt>
-            <img src=resources/img/stairs-cover.jpg class=gallery-cell alt>
-        </div>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-66455461-1', 'auto');
-          ga('send', 'pageview');
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-        </script>
-        <script src=js/bootstrap_build.min-7804adbd5a.js></script>
-        <script src=js/media.min-a6d6c45b61.js></script>
-    </body>
+      <!-- Background of PhotoSwipe. 
+           It's a separate element as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+
+          <!-- Container that holds slides. 
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+
+          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+          <div class="pswp__ui pswp__ui--hidden">
+
+              <div class="pswp__top-bar">
+
+                  <!--  Controls are self-explanatory. Order can be changed. -->
+
+                  <div class="pswp__counter"></div>
+
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+              </div>
+
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row photos" itemscope itemtype="http://schema.org/ImageGallery">
+
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/a.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/a.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/b.jpeg" itemprop="contentUrl" data-size="700x1050" data-caption="Credits: Color Crush Photograpy">
+          <img class="grid-item" src="resources/img/media/b.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/c.jpeg" itemprop="contentUrl" data-size="700x397" data-caption="Credits: " data-url="https://www.youtube.com/embed/bT6Hp5a8hBA">
+          <img class="grid-item" src="resources/img/media/c.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/e.jpeg" itemprop="contentUrl" data-size="1000x1500" data-caption="Credits: KomJazz Photography">
+          <img class="grid-item" src="resources/img/media/e.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/f.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/f.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/g.jpeg" itemprop="contentUrl" data-size="700x1049" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/g.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/ga.jpeg" itemprop="contentUrl" data-size="700x397" data-caption="Credits: " data-url="https://www.youtube.com/embed/BSESR3q85Xw">
+          <img class="grid-item" src="resources/img/media/ga.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/h.jpeg" itemprop="contentUrl" data-size="700x764" data-caption="Credits: KomJazz Photography">
+          <img class="grid-item" src="resources/img/media/h.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/i.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/i.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/j.jpeg" itemprop="contentUrl" data-size="700x1050" data-caption="Credits: Sam Neufeld">
+          <img class="grid-item" src="resources/img/media/j.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/k.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Sam Neufeld">
+          <img class="grid-item" src="resources/img/media/k.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/l.jpeg" itemprop="contentUrl" data-size="685x1044" data-caption="Credits: ">
+          <img class="grid-item" src="resources/img/media/l.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/m.jpeg" itemprop="contentUrl" data-size="700x1063" data-caption="Credits: Color Crush Photograpy">
+          <img class="grid-item" src="resources/img/media/m.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/n.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Sam Neufeld">
+          <img class="grid-item" src="resources/img/media/n.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/o.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/o.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/p.jpeg" itemprop="contentUrl" data-size="700x1050" data-caption="Credits: ">
+          <img class="grid-item" src="resources/img/media/p.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/q.jpeg" itemprop="contentUrl" data-size="1000x1500" data-caption="Credits: KomJazz Photography">
+          <img class="grid-item" src="resources/img/media/q.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/r.jpeg" itemprop="contentUrl" data-size="700x467" data-caption="Credits: Ken Ge Photography">
+          <img class="grid-item" src="resources/img/media/r.jpeg" alt="">
+        </a>
+      </figure>
+    
+      <figure itemprop="associatedMedia" itemtype="http://schema.org/ImageObject" itemscope="">
+        <a href="resources/img/media/s.jpeg" itemprop="contentUrl" data-size="750x750" data-caption="Credits: KomJazz Photography">
+          <img class="grid-item" src="resources/img/media/s.jpeg" alt="">
+        </a>
+      </figure>
+    
+    </div>
+  </div> 
+ 
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+          integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+          crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+  <script src=js/bootstrap_build.min-7804adbd5a.js></script>
+  <!--Adding the photoswipe plugin-->
+  <script src="js/photoswipe_init.js"></script>
+
+</body>
 </html>
