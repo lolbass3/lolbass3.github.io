@@ -28,7 +28,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
                 h: parseInt(size[1], 10),
-                title: linkEl.getAttribute('data-caption')
+                title: linkEl.getAttribute('data-caption'),
+                video: $(linkEl).data('url')
             };
 
             if(figureEl.children.length > 1) {
@@ -189,21 +190,20 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         gallery.listen('beforeChange', function() {
            removeVideo();
         });
-        //gallery.listen('resize', function() { 
-           //if ($('.videoHolder').length > 0) updateVideoPosition(gallery);
-        //});
+        gallery.listen('resize', function() { 
+           if ($('.videoHolder').length > 0) updateVideoPosition(gallery);
+        });
         gallery.listen('close', function() {
            removeVideo();
         });
        
         detectVideo(gallery);
+        //console.log(gallery.currItem);
     };
 
     function removeVideo() {
         if ($('.videoHolder').length > 0) { 
             if ($('#video').length > 0) {
-                $('video')[0].pause();
-                $('video')[0].src = "";
                 $('.videoHolder').remove();
                 $('.pswp__img').css('visibility','visible');
             } else {
@@ -213,24 +213,21 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     }
     
     function detectVideo(gallery) {
-        var src = gallery.currItem.src;
-        if (src.indexOf('video')>= 0) {
-            addVideo(gallery.currItem);
+        var src = gallery.currItem.video;
+        // if the src is not empy
+        if (src !== undefined) {
+            addVideo(gallery.currItem, src);
             updateVideoPosition(gallery);
         }
     }
-    function addVideo(item, vp) {
-        var videofile = item.src.split(".");
+    function addVideo(item, src, vp) {
         var v = $('<div />', {
                     class:'videoHolder',
                     css : ({'position': 'absolute','width':item.w, 'height':item.h})
         
         });
         v.one('click touchstart', (function() {
-            var playerCode = '<video id="video" width="'+item.w+'" height="'+item.h+'" autoplay controls>' +
-            '<source src="'+videofile[0]+'.mp4" type="video/mp4"></source>' +
-            '<source src="'+videofile[0]+'.webm" type="video/webm"></source>' +
-            '</video>';
+            var playerCode = '<iframe id="video" width="'+item.w+'" height="'+item.h+'" src="'+src+'"></iframe>';
              $(this).html(playerCode);
              $('.pswp__img').css('visibility','hidden');
             
