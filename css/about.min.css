@@ -113,6 +113,10 @@ p {
   color: white;
   text-transform: none; }
 
+.navbar-collapse {
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   #bg {
     background-image: url("../resources/img/about-banner-mobile.jpg"); }
