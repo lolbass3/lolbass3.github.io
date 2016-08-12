@@ -117,6 +117,13 @@ p {
   #bg {
     background-image: url("../resources/img/about-banner-mobile.jpg"); }
 
+  #about {
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    overflow-y: scroll;
+  }
+
   .about-container {
     padding-top: none;
     margin-top: none; }
