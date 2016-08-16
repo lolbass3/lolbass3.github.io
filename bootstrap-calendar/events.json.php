@@ -480,6 +480,134 @@
 			"class": "event-info",
 			"start": "1459468800000",
 			"end": "1459472400000"
+		},
+		{
+			"id": "62",
+			"title": "evan ringel's senior recital",
+			"url": "http://www.lowellringel.com/events/event_62.html",
+			"class": "event-info",
+			"start": "1459638000000",
+			"end": "1459645200000"
+		},
+		{
+			"id": "63",
+			"title": "duo with jonah udall",
+			"url": "http://www.lowellringel.com/events/event_63.html",
+			"class": "event-info",
+			"start": "1460156400000",
+			"end": "1460167200000"
+		},
+		{
+			"id": "64",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_64.html",
+			"class": "event-info",
+			"start": "1460304000000",
+			"end": "1460314800000"
+		},
+		{
+			"id": "65",
+			"title": "kayla schwartz's junior recital",
+			"url": "http://www.lowellringel.com/events/event_65.html",
+			"class": "event-info",
+			"start": "1461103200000",
+			"end": "1461114000000"
+		},
+		{
+			"id": "66",
+			"title": "duo with david leon",
+			"url": "http://www.lowellringel.com/events/event_66.html",
+			"class": "event-info",
+			"start": "1461366000000",
+			"end": "1461376800000"
+		},
+		{
+			"id": "67",
+			"title": "frost jazz hour with jonah udall trio",
+			"url": "http://www.lowellringel.com/events/event_67.html",
+			"class": "event-info",
+			"start": "1462460400000",
+			"end": "1462464000000"
+		},
+		{
+			"id": "68",
+			"title": "duo with chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_68.html",
+			"class": "event-info",
+			"start": "1462723200000",
+			"end": "1462734000000"
+		},
+		{
+			"id": "69",
+			"title": "jazz at gia",
+			"url": "http://www.lowellringel.com/events/event_69.html",
+			"class": "event-info",
+			"start": "1465689600000",
+			"end": "1465700400000"
+		},
+		{
+			"id": "70",
+			"title": "3+2 at the sharp nine gallery",
+			"url": "http://www.lowellringel.com/events/event_70.html",
+			"class": "event-info",
+			"start": "1465772400000",
+			"end": "1465779600000"
+		},
+		{
+			"id": "71",
+			"title": "3+2 at the carrack art gallery",
+			"url": "http://www.lowellringel.com/events/event_71.html",
+			"class": "event-info",
+			"start": "1465945200000",
+			"end": "1465952400000"
+		},
+		{
+			"id": "72",
+			"title": "international association of schools of jazz meeting",
+			"url": "http://www.lowellringel.com/events/event_72.html",
+			"class": "event-info",
+			"start": "1466917200000",
+			"end": "1467428400000"
+		},
+		{
+			"id": "73",
+			"title": "soya e pomodoro jazz night",
+			"url": "http://www.lowellringel.com/events/event_73.html",
+			"class": "event-info",
+			"start": "1469055600000",
+			"end": "1469071800000"
+		},
+		{
+			"id": "74",
+			"title": "jalisco jazz festival",
+			"url": "http://www.lowellringel.com/events/event_74.html",
+			"class": "event-info",
+			"start": "1469854800000",
+			"end": "1470625200000"
+		},
+		{
+			"id": "75",
+			"title": "zoe fromer quartet",
+			"url": "http://www.lowellringel.com/events/event_75.html",
+			"class": "event-info",
+			"start": "1471125600000",
+			"end": "1471136400000"
+		},
+		{
+			"id": "76",
+			"title": "jake hart quartet",
+			"url": "http://www.lowellringel.com/events/event_76.html",
+			"class": "event-info",
+			"start": "1471208400000",
+			"end": "1471219200000"
+		},
+		{
+			"id": "77",
+			"title": "sam hart quartet",
+			"url": "http://www.lowellringel.com/events/event_77.html",
+			"class": "event-info",
+			"start": "1471730400000",
+			"end": "1471741200000"
 		}
 	]
 }
