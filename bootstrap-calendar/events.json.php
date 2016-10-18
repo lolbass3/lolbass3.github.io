@@ -688,6 +688,14 @@
 			"class": "event-info",
 			"start": "1476748800000",
 			"end": "1476759600000"
+		},
+		{
+			"id": "88",
+			"title": "jonah udall trio",
+			"url": "http://www.lowellringel.com/events/event_88.html",
+			"class": "event-info",
+			"start": "1477004400000",
+			"end": "1477013400000"
 		}
 	]
 }
