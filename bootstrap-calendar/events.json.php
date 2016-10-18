@@ -608,6 +608,86 @@
 			"class": "event-info",
 			"start": "1471730400000",
 			"end": "1471741200000"
+		},
+		{
+			"id": "78",
+			"title": "jazz forum at university of miami",
+			"url": "http://www.lowellringel.com/events/event_78.html",
+			"class": "event-info",
+			"start": "1472232300000",
+			"end": "1472235300000"
+		},
+		{
+			"id": "79",
+			"title": "josiah boornazian quartet",
+			"url": "http://www.lowellringel.com/events/event_79.html",
+			"class": "event-info",
+			"start": "1474232400000",
+			"end": "1474243200000"
+		},
+		{
+			"id": "80",
+			"title": "lowell ringel quartet",
+			"url": "http://www.lowellringel.com/events/event_80.html",
+			"class": "event-info",
+			"start": "1474502400000",
+			"end": "1474513200000"
+		},
+		{
+			"id": "81",
+			"title": "jonah udall trio",
+			"url": "http://www.lowellringel.com/events/event_81.html",
+			"class": "event-info",
+			"start": "1476399600000",
+			"end": "1476408600000"
+		},
+		{
+			"id": "82",
+			"title": "tal cohen trio",
+			"url": "http://www.lowellringel.com/events/event_82.html",
+			"class": "event-info",
+			"start": "1473991200000",
+			"end": "1474002000000"
+		},
+		{
+			"id": "83",
+			"title": "tal cohen trio",
+			"url": "http://www.lowellringel.com/events/event_83.html",
+			"class": "event-info",
+			"start": "1476410400000",
+			"end": "1476421200000"
+		},
+		{
+			"id": "84",
+			"title": "lowell ringel quartet",
+			"url": "http://www.lowellringel.com/events/event_84.html",
+			"class": "event-info",
+			"start": "1476651600000",
+			"end": "1476662400000"
+		},
+		{
+			"id": "85",
+			"title": "extensions",
+			"url": "http://www.lowellringel.com/events/event_85.html",
+			"class": "event-info",
+			"start": "1476835200000",
+			"end": "1476842400000"
+		},
+		{
+			"id": "86",
+			"title": "chantil dukart",
+			"url": "http://www.lowellringel.com/events/event_86.html",
+			"class": "event-info",
+			"start": "1476918000000",
+			"end": "1476932400000"
+		},
+		{
+			"id": "87",
+			"title": "trombone summit",
+			"url": "http://www.lowellringel.com/events/event_87.html",
+			"class": "event-info",
+			"start": "1476748800000",
+			"end": "1476759600000"
 		}
 	]
 }
